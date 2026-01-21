@@ -36,14 +36,14 @@ return [
     ],
 
     'firebase' => [
-        'projectId' => env('FIREBASE_PROJECT_ID'),
-        'apiKey' => env('FIREBASE_API_KEY'),
-        'authDomain' => env('FIREBASE_AUTH_DOMAIN'),
-        'storageBucket' => env('FIREBASE_STORAGE_BUCKET'),
-        'messagingSenderId' => env('FIREBASE_MESSAGING_SENDER_ID'),
-        'appId' => env('FIREBASE_APP_ID'),
-        'measurementId' => env('FIREBASE_MEASUREMENT_ID'),
-        'vapidKey' => env('FIREBASE_VAPID_KEY'),
+        'projectId' => env('VITE_FIREBASE_PROJECT_ID'),
+        'apiKey' => env('VITE_FIREBASE_API_KEY'),
+        'authDomain' => env('VITE_FIREBASE_AUTH_DOMAIN'),
+        'storageBucket' => env('VITE_FIREBASE_STORAGE_BUCKET'),
+        'messagingSenderId' => env('VITE_FIREBASE_MESSAGING_SENDER_ID'),
+        'appId' => env('VITE_FIREBASE_APP_ID'),
+        'measurementId' => env('VITE_FIREBASE_MEASUREMENT_ID'),
+        'vapidKey' => env('VITE_FIREBASE_VAPID_KEY'),
     ],
 
 ];
